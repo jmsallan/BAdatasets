@@ -10,7 +10,7 @@ white <- read_delim("winequality-white.csv", ";")
 WineQuality <- list(red=red, wiite=white)
 
 #set working directory to data
-save(WineQuality, file="WineQuality.Rdata")
+save(WineQuality, file="WineQuality.RData")
 
 #---- insurance data -----
 
@@ -18,4 +18,4 @@ save(WineQuality, file="WineQuality.Rdata")
 InsuranceCharges <- read.csv("insurance.csv")
 
 #set working directory to data
-save(InsuranceCharges, file="InsuranceCharges.Rdata")
+save(InsuranceCharges, file="InsuranceCharges.RData")
