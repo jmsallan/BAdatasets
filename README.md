@@ -4,4 +4,4 @@ This package contains datasets to illustrate machine learning algorithms in a Bu
 
 Once you have installed the package, you can see what datasets are available at the moment typing in the R console:
 
-data(package = "BAdatasets")
+data(package = "BAdatasets") 
