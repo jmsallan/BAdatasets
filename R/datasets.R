@@ -51,3 +51,74 @@
 #' LoanDefaults
 #'
 "LoanDefaults"
+
+#' house price index for the United States
+#'
+#' @description The House Price Index (HPI) is a broad measure of the movement of single-family house prices. The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties. This information is obtained by reviewing repeat mortgage transactions on single-family properties whose mortgages have been purchased or securitized by Fannie Mae or Freddie Mac since January 1975.
+#'
+#' @format A data frame with 26,877 observations.
+#'
+#' \describe{
+#' \item{year}{Year.}
+#' \item{month}{Month.}
+#' \item{state}{US State.}
+#' \item{price_index}{Calculated House Price Index - average price changes in repeat sales or refinancings at state level.}
+#' \item{us_avg}{Calculated House Price Index - averaged at national level.}
+#' }
+#'
+#' @source \url{https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-02-05}
+#'
+#' @examples
+#'
+#' hpiUS
+#'
+"hpiUS"
+
+#' A collection of indicators of mortgage rates for the United States
+#'
+#' @description Mortgage rates for fixed 30, fixed 15, and adjustable 5-1 Hybrids across time. Some of the indices were only introduced in the 1990s and late 2000s, and as such some information can only be pulled from more recent data.
+#'
+#' @format A data frame with 2,492 observations.
+#'
+#' \describe{
+#' \item{date}{Date (in date format).}
+#' \item{fixed_rate_30_yr}{Fixed rate 30 year mortgage (percent).}
+#' \item{fees_and_pts_30_yr}{Fees and percentage points of the loan amount.}
+#' \item{fixed_rate_15_yr}{Fixed rate 15 year mortgage (percent).}
+#' \item{fees_and_pts_15_yr}{Fixed rate 15 year mortgage (percent).}
+#' \item{adjustable_rate_5_1_hybrid}{5-1 Hybrid Adjustable rate mortgage (5 year fixed, then annual adjustable rate).}
+#' \item{fees_and_pts_5_1_hybrid}{Fees and percentage points of the loan amount.}
+#' \item{adjustable_margin_5_1_hybrid}{A fixed amount added to the underlying index to establish the fully indexed rate for an ARM.}
+#' \item{spread_30_yr_fixed_and_5_1_adjustable}{Difference in rate between 30 year fixed and 5-1 adjustable.}
+#' }
+#'
+#' @source \url{https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-02-05}
+#'
+#' @examples
+#'
+#' mortgageUS
+#'
+"mortgageUS"
+
+#' Some recession dates in the US
+#'
+#' @format A data frame with 14 observations
+#'
+#' \describe{
+#' \item{name}{Name of the recession.}
+#' \item{period_range}{Period from start to finish.}
+#' \item{duration_months}{Duration in months.}
+#' \item{time_since_previous_recession_months}{Time since previous recession in months.}
+#' \item{peak_unemploy_ment}{Peak unemployment and time when it is reached.}
+#' \item{gdp_decline_peak_to_trough}{gdp decline caused by the recession.}
+#' \item{characteristics}{A description of the characteristics of the recession.}
+#' }
+#'
+#' @source \url{https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-02-05}
+#'
+#' @examples
+#'
+#' recessionUS
+#'
+"recessionUS"
+
