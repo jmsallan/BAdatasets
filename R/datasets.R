@@ -122,3 +122,21 @@
 #'
 "recessionUS"
 
+#' A sample of the Titanic datasets for rule mining
+#'
+#' @format A data frame with 2201 observations and four factor variables.
+#'
+#' \describe{
+#' \item{Class}{Class where the passenger was travelling (1st, 2nd, 3rd, Crew).}
+#' \item{Sex}{Passenger's gender (Female, Male).}
+#' \item{Age}{Is the passenger an adult or a child? (Adult, Child).}
+#' \item{Survied}{Has the passenger survived? (Yes, No)}
+#' }
+#'
+#' @source \url{http://www.rdatamining.com/data}
+#'
+#' @examples
+#'
+#' titanic_raw
+#'
+"titanic_raw"
