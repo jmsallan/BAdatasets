@@ -122,9 +122,9 @@
 #'
 "recessionUS"
 
-#' A sample of the Titanic datasets for rule mining
+#' A sample of the Titanic dataset for rule mining
 #'
-#' @format A data frame with 2201 observations and four factor variables.
+#' @format A data frame with 2201 observations and four variables.
 #'
 #' \describe{
 #' \item{Class}{Class where the passenger was travelling (1st, 2nd, 3rd, Crew).}
@@ -140,3 +140,50 @@
 #' titanic_raw
 #'
 "titanic_raw"
+
+#' A sample of epub transactions for rule mining
+#'
+#' @description The epub dataset is a transformation of the Epub transaction matrix of the arules package into a data frame. The dataset contains the download history of documents from the electronic publication platform of the Vienna University of Economics and Business Administration. The data was recorded between Jan 2003 and Dec 2008.
+#'
+#' @format A data frame with 25893 observations and three variables.
+#'
+#' \describe{
+#' \item{transaction_id}{The id of the transaction. A transaction appears in as many rows as epub acquired in it.}
+#' \item{time_stamp}{Time stamp of the transaction in POSIXct format.}
+#' \item{book_code}{The code of the epub}
+#' }
+#'
+#' @source Original data provided by Michael Hahsler from ePub-WU at \url{https://epub.wu-wien.ac.at}.
+#'
+#' @examples
+#'
+#' epub
+#'
+"epub"
+
+
+#' A dataset of online retail transactions
+#'
+#' @description A transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
+#'
+#' @format A data frame with 541909 observations and eight variables.
+#'
+#' \describe{
+#' \item{InvoiceNo}{Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.}
+#' \item{StockCode}{Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.}
+#' \item{Description}{Product (item) name. Nominal.}
+#' \item{Quantity}{The quantities of each product (item) per transaction. Numeric.}
+#' \item{InvoiceDate}{Invice Date and time. Numeric, the day and time when each transaction was generated. In POSIXct format.}
+#' \item{UnitPrice}{Unit price. Numeric, Product price per unit in sterling.}
+#' \item{CustomerID}{Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.}
+#' \item{Country}{Country name. Nominal, the name of the country where each customer resides.}
+#' }
+#'
+#' @source UCI Machine Learning Repository\url{https://archive.ics.uci.edu/ml/datasets/online+retail}
+#'
+#' @examples
+#'
+#' online_retail
+#'
+"online_retail"
+

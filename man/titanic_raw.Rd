@@ -3,9 +3,9 @@
 \docType{data}
 \name{titanic_raw}
 \alias{titanic_raw}
-\title{A sample of the Titanic datasets for rule mining}
+\title{A sample of the Titanic dataset for rule mining}
 \format{
-A data frame with 2201 observations and four factor variables.
+A data frame with 2201 observations and four variables.
 
 \describe{
 \item{Class}{Class where the passenger was travelling (1st, 2nd, 3rd, Crew).}
@@ -21,7 +21,7 @@ A data frame with 2201 observations and four factor variables.
 titanic_raw
 }
 \description{
-A sample of the Titanic datasets for rule mining
+A sample of the Titanic dataset for rule mining
 }
 \examples{
 
