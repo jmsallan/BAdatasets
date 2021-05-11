@@ -13,9 +13,6 @@ A data frame with 149 observations.
 \item{assessment}{A factor variable indicating if the opinion is positive or negative.}
 }
 }
-\source{
-\url{https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#}
-}
 \usage{
 employees_opinion
 }
