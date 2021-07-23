@@ -179,7 +179,7 @@
 #' \item{Country}{Country name. Nominal, the name of the country where each customer resides.}
 #' }
 #'
-#' @source UCI Machine Learning Repository\url{https://archive.ics.uci.edu/ml/datasets/online+retail}
+#' @source UCI Machine Learning Repository \url{https://archive.ics.uci.edu/ml/datasets/online+retail}
 #'
 #' @examples
 #'
@@ -204,7 +204,7 @@
 #' \item{Country}{Country name. Nominal, the name of the country where each customer resides.}
 #' }
 #'
-#' @source UCI Machine Learning Repository\url{https://archive.ics.uci.edu/ml/datasets/Online+Retail+II}
+#' @source UCI Machine Learning Repository \url{https://archive.ics.uci.edu/ml/datasets/Online+Retail+II}
 #'
 #' @examples
 #'
@@ -212,3 +212,25 @@
 #'
 "online_retail2"
 
+#' A sample dataset for hierarchical linear regression
+#'
+#' @description A (probably artificial) dataset to introduce hierarchical linear gression model.
+#'
+#' @format A data frame with 100 observations and five variables.
+#'
+#' \describe{
+#'
+#' \item{happiness}{The criterion or dependent variable.}
+#' \item{age}{A control variable.}
+#' \item{gender}{Another control variable, encoded as character with "Male" and "Female" values.}
+#' \item{friends}{A predictor variable.}
+#' \item{pets}{A predictor variable.}
+#' }
+#'
+#' @source Hierarchical linear regression (University of Virginia Library) \url{https://data.library.virginia.edu/hierarchical-linear-regression/}
+#'
+#' @examples
+#'
+#' hrl
+#'
+'hlr'

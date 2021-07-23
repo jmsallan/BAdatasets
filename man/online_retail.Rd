@@ -19,7 +19,7 @@ A data frame with 541909 observations and eight variables.
 }
 }
 \source{
-UCI Machine Learning Repository\url{https://archive.ics.uci.edu/ml/datasets/online+retail}
+UCI Machine Learning Repository \url{https://archive.ics.uci.edu/ml/datasets/online+retail}
 }
 \usage{
 online_retail
