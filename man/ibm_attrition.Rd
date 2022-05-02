@@ -5,7 +5,7 @@
 \alias{ibm_attrition}
 \title{A employee attition dataset}
 \format{
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 1470 rows and 35 columns.
+An object of class \code{data.frame} with 1470 rows and 35 columns.
 }
 \source{
 \url{https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset}
