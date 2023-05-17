@@ -33,14 +33,14 @@
 #' @format A data frame with 30000 observations. I have relabelled variables according to its meaning, and the definition provided in the paper. Reader should examine them beforehand, as some inconsistencies may occur.
 #'
 #' \describe{
-#' \item{LIMIT_BAL}{Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.}
-#' \item{SEX}{Gender (1 = male; 2 = female).}
-#' \item{EDUCATION}{Education (1 = graduate school; 2 = university; 3 = high school; 4 = others).}
-#' \item{MARRIAGE}{Marital status (1 = married; 2 = single; 3 = others).}
-#' \item{AGE}{Age (year).}
-#' \item{PAY_0-PAY_6}{History of past payment. We tracked the past monthly payment records (from April to September, 2005) as follows: PAY_0 = the repayment status in September, 2005; PAY_1 = the repayment status in August, 2005; ...; PAY_6 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; ...; 8 = payment delay for eight months; 9 = payment delay for nine months and above.}
-#' \item{*BILL_AMT1-BILL_AMT6}{Amount of bill statement (NT dollar). BILL_AMT1 = amount of bill statement in September, 2005; BILL_AMT2 = amount of bill statement in August, 2005; ...; BILL_AMT6 = amount of bill statement in April, 2005.}
-#' \item{PAY_AMT1-PAY_AMT6}{Amount of previous payment (NT dollar). PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...;PAY_AMT6 = amount paid in April, 2005.}
+#' \item{limit_bal}{Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.}
+#' \item{sex}{Gender (1 = male; 2 = female).}
+#' \item{education}{Education (1 = graduate school; 2 = university; 3 = high school; 4 = others).}
+#' \item{marriage}{Marital status (1 = married; 2 = single; 3 = others).}
+#' \item{age}{Age (year).}
+#' \item{pay_sep-pay_abr}{History of past payment. We tracked the past monthly payment records (from April to September, 2005) as follows: pay_sep = the repayment status in September, 2005; pay_aug = the repayment status in August, 2005; ...; pay_apr = the repayment status in April, 2005. The measurement scale for the repayment status is: -2: No consumption; -1: Paid in full; 0: The use of revolving credit; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 8 = payment delay for eight months; 9 = payment delay for nine months and above.}
+#' \item{bill_amt_sep-bill_amt_apr}{Amount of bill statement (NT dollar). bill_amt_sep = amount of bill statement in September, 2005; bill_amt_aug = amount of bill statement in August, 2005; ...; bill_amt_apr = amount of bill statement in April, 2005.}
+#' \item{pay_amt_sep-pay_amt_apr}{Amount of previous payment (NT dollar). pay_amt_sep = amount paid in September, 2005; pay_amt_aug = amount paid in August, 2005; ...;pay_amt_apr = amount paid in April, 2005.}
 #' \item{default}{The target variable, indicating if the customer has defaulted or not (no=0, yes=1).}
 #' }
 #'
@@ -48,9 +48,9 @@
 #'
 #' @examples
 #'
-#' LoanDefaults
+#' cc_defaults
 #'
-"LoanDefaults"
+"cc_defaults"
 
 #' house price index for the United States
 #'
